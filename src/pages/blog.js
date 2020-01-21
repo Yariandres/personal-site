@@ -18,8 +18,7 @@ const BlogPage = ({data}) => (
         <br/>
         <hr />
       </div>
-    )) }
-    
+    )) }    
   </Layout>
 )
 
