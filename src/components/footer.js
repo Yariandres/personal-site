@@ -7,7 +7,7 @@ const Footer = () =>
       <footer>
         © {new Date().getFullYear()}, Built by 
         {` `}
-        <a href="#">Yari</a>
+        <p>Yari</p>
       </footer> 
     </div>
   );
