@@ -27,11 +27,23 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Logo />
+      <Logo />/
         <div className="main">
-          <Menu />         
-          <main>{children}</main>           
+
+          <div className="row">            
+
+            <div className="col-1-of-2">
+              <main>{children}</main> 
+            </div>
+
+            <div className="col-1-of-2">
+              <Menu /> 
+            </div>
+
+          </div>                  
         </div>
+        
+        
       <Footer/> 
     </>
   )
