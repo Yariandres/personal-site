@@ -38,6 +38,7 @@ body {
 
   &__item {
     font-size: 1.5rem;
+    font-weight: bold;
     list-style: none;
     line-height: 7rem;  
     padding: 0; 
@@ -45,6 +46,10 @@ body {
 
   a:link {
     text-decoration: none;
+  }
+
+  a:hover {
+    color: #3f0000;
   }
 }
 
@@ -58,7 +63,7 @@ body {
   &__box--1 {
     font-size: 4rem;
     color: #fff;
-    background-color: #2c2c5456;
+    background-color: #2c2c54;
     width: 35rem;    
   }
 
@@ -66,5 +71,4 @@ body {
     text-align: center;
     text-transform: uppercase;
   }
-
 }
