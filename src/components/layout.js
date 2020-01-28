@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Menu from "./menu"
 import Footer from "./footer"
-import "../css/layout.css"
+import "../css/layout.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
