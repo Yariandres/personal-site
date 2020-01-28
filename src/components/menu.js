@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const Menu = () => 
   (
-    <div className="nav">   
+    <div className="nav"> 
       <ul>
         <li className="nav__item">
           <Link to="/">Home</Link>

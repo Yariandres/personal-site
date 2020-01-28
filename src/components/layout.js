@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Logo />/
+      <Logo />
         <div className="main">
 
           <div className="row">            
