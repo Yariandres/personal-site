@@ -6,13 +6,13 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
 
-
-import Menu from "./menu"
-import Footer from "./footer"
-import "../css/layout.scss"
+import Logo from "./logo";
+import Menu from "./menu";
+import Footer from "./footer";
+import "../css/layout.scss";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,11 +27,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Menu />    
-      <div>
-        <main>{children}</main>
-        <Footer/>    
-      </div>
+      <Logo />
+        <div className="main">
+          <Menu />         
+          <main>{children}</main>           
+        </div>
+      <Footer/> 
     </>
   )
 }

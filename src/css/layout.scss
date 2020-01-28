@@ -1,11 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"');
 
-
+// FOONTS
 $font-primary: 'Inconsolata', monospace;
+
+
+// COLORS
 $primary-color: #333;
 
 
+// RESETS 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
 body {
   font-family: $font-primary;
-  color: $primary-color;
+  box-sizing: border-box;
+}
+
+// LOGO
+.logo {
+  margin: 4rem 0 0 4rem;  
+}
+
+// NAVIGATION
+.nav {  
+  margin: 0 4rem 0 0;
+  float: right;
+
+  &__item {
+    font-size: 1.5rem;
+    list-style: none;
+    line-height: 7rem;  
+    padding: 0; 
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}
+
+// HERO
+.main {
+  height: 65vh;
+}
+
+.hero {
+  margin: 4rem 0 0 10rem;
+  &__box--1 {
+    font-size: 4rem;
+    color: #fff;
+    background-color: #2c2c54;
+    width: 35rem;    
+  }
+
+  &__text {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
 }

@@ -7,10 +7,16 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />   
 
-    <div>
-      <h1>This is the home page</h1>
-      <image/>
-    </div>    
+    <div className="hero">
+      <div className="hero__box--1">
+          <h1 className="hero__text">Designer</h1>
+      </div>
+      <br/>
+      <div className="hero__box--1">
+        <h2 className="hero__text">Developer</h2> 
+      </div>    
+    </div>
+
   </Layout>
 )
 
