@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
 
+// UTILITIES
+@import "base/utilities";
+
 @import "abstraction/mixins";
 @import "abstraction/variables";
 @import "layout/grid";
+
+
+// PAGES
+@import "pages/home";
+@import "base/typography";
 
 
 
@@ -76,7 +84,7 @@ body {
   }
 
   &__item a {
-    color: #333;
+    color: $primary-color;
   }
 
   a:link {
@@ -85,6 +93,7 @@ body {
 
   a:hover {
     color: rgb(103, 128, 159);
+    
   }
 }
 
@@ -100,9 +109,9 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }
 
-.hero { 
+.hero {
   &__box--1 {    
-    color: rgb(44, 62, 80);    
+    color: $primary-color;    
     position: absolute; 
     top: 20%;
     left: 50%;
@@ -119,6 +128,7 @@ body {
     padding: 1rem 2rem;
     margin-bottom: 0.5rem;
     display: block;
+    text-shadow: .5rem 1rem 0.8rem rgba(#000, .2);
 
     @include respond(phone) {
       text-align: center;
@@ -139,11 +149,11 @@ body {
     letter-spacing: 2.5rem;
     display: block;
     padding: 1rem 2rem;
+    text-shadow: .5rem 1rem 0.8rem rgba(#000, .2);
 
     @include respond(phone) {
       text-align: center;
-    }
-       
+    }       
 
      // ANIMATION
      animation-name: moveInRight;

@@ -1,0 +1,15 @@
+.about__heading--seconday {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, $secondary-color, $tertiary-color);
+
+  -webkit-background-clip: text;
+  color: transparent;
+
+  &:hover {
+    text-shadow: .5rem 1rem 2rem rgba(#000, .2);
+  }  
+  
+}

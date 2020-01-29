@@ -9,9 +9,11 @@ import React from "react"
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
-import Logo from "./logo";
+
 import Menu from "./menu";
+
 import Footer from "./footer";
+
 import "../css/layout.scss";
 
 const Layout = ({ children }) => {
@@ -26,21 +28,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <header className="header">
-      <div className="row">
-        <div className="col-1-of-2">
-          <Logo />
-        </div>
-
-        <div className="col-1-of-2">           
-          <Menu />
-        </div> 
-      </div>
-      
-        <main>{children}</main>    
-      
-    
-    </header>
+    <>             
+      <Menu/>
+      <main>{children}</main>   
+    </>
   )
 }
 
