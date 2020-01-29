@@ -21,7 +21,6 @@ html {
     font-size: 56.25%; // 1rem = 9px, 9/16 = 50%
   }
 
-
   @include respond(tab-port) {
     font-size: 50%;  // 1rem = 8px, 8/16 = 50%
   }
@@ -45,10 +44,12 @@ body {
 .logo {  
   padding-top: 1rem;
   margin: 0;
+  
 
   &__img {
     width: 3rem;
     height: auto;
+    
   }
 
   @include respond(phone) {
@@ -57,20 +58,14 @@ body {
 }
 
 // NAVIGATION
-.nav {  
-  background-color: red;  
+.nav {   
   display: inline;
 
-  @include respond(phone) {
-    text-align: center;
-  }
-
   &__list {
-    text-align: right;
-    text-align: center;
+    text-align: right;    
   }
 
-  &__item {
+  &__item {    
     font-size: 1.5rem;
     font-weight: bold;
     list-style: none;
@@ -80,12 +75,16 @@ body {
     margin-left: 4rem;
   }
 
+  &__item a {
+    color: #333;
+  }
+
   a:link {
     text-decoration: none;
   }
 
   a:hover {
-    color: #3f0000;
+    color: rgb(103, 128, 159);
   }
 }
 
@@ -93,9 +92,8 @@ body {
 .header {
   height: 95vh;
   background-image: linear-gradient(
-    to right, rgba(230, 242, 254, 0.801),
-    rgba(197, 239, 247, 0.801)
-              );
+    to right, rgba(191, 191, 191, 0.800),
+    rgba(242, 241, 239, 0.800)), url(../images/designer.jpg);
   background-size: cover;
   background-position: top;
 
@@ -104,8 +102,7 @@ body {
 
 .hero { 
   &__box--1 {    
-    color: #fff;
-    
+    color: rgb(44, 62, 80);    
     position: absolute; 
     top: 20%;
     left: 50%;
@@ -118,20 +115,16 @@ body {
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1rem;
+    letter-spacing: 2.5rem;
     padding: 1rem 2rem;
     margin-bottom: 0.5rem;
     display: block;
-    background-color: rgba(52, 73, 94, 0.705);
+   
 
     // ANIMATION
     animation-name: moveInLeft;
     animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-   
-    @include respond(phone) {
-      text-align: center;  
-    }
+    animation-timing-function: ease-in-out;   
   }
 
   &__heading-primary--sub {
@@ -139,10 +132,10 @@ body {
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
+    letter-spacing: 2.5rem;
     display: block;
     padding: 1rem 2rem;
-    background-color: rgba(52, 73, 94, 0.705);
+       
 
      // ANIMATION
      animation-name: moveInRight;
@@ -150,3 +143,5 @@ body {
      animation-timing-function: ease-in-out;
   }
 }
+
+// http://www.flatuicolorpicker.com/blue-hex-color-model
