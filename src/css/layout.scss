@@ -119,6 +119,10 @@ body {
     padding: 1rem 2rem;
     margin-bottom: 0.5rem;
     display: block;
+
+    @include respond(phone) {
+      text-align: center;
+    }
    
 
     // ANIMATION
@@ -135,6 +139,10 @@ body {
     letter-spacing: 2.5rem;
     display: block;
     padding: 1rem 2rem;
+
+    @include respond(phone) {
+      text-align: center;
+    }
        
 
      // ANIMATION
