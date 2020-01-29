@@ -40,3 +40,42 @@ $breakpoint arguement:
     @media (min-width: 112.5em) { @content }; // 1800px
   }
 }
+
+// ANIMATION
+@keyframes moveInLeft {
+  // start
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  // Middle
+  80% {
+    transform: translateX(1rem);
+  }
+
+  // finish
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  // start
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  // Middle
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  // finish
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
