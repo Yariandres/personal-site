@@ -5,20 +5,20 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />   
+    <SEO title="Home" />
 
-    <div className="hero">
-   
-      <div className="hero__box--1">
-          <h1 className="hero__text">Designer</h1>
-      </div>
+      <div className="hero">
+        <div className="row">          
+          <div className="hero__box--1">
+              <h1 className="hero__text">Designer</h1>
+          </div>
 
-      <br/>
-      <div className="hero__box--1">
-        <h2 className="hero__text">Developer</h2> 
-      </div> 
-
-    </div>    
+          <br/>
+          <div className="hero__box--1">
+            <h2 className="hero__text">Developer</h2> 
+          </div>
+        </div>      
+      </div>    
 
   </Layout>
 )

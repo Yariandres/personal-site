@@ -26,26 +26,21 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Logo />
-        <div className="main">
-
-          <div className="row">            
-
-            <div className="col-1-of-2">
-              <main>{children}</main> 
-            </div>
-
-            <div className="col-1-of-2">
-              <Menu /> 
-            </div>
-
-          </div>                  
+    <header className="header">
+      <div className="row">
+        <div className="col-1-of-2">
+          <Logo />
         </div>
-        
-        
+
+        <div className="col-1-of-2">           
+          <Menu />
+        </div> 
+      </div>
+      
+        <main>{children}</main>    
+      
       <Footer/> 
-    </>
+    </header>
   )
 }
 

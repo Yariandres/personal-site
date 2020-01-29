@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 const Menu = () => 
   (
     <div className="nav"> 
-      <ul>
+      <ul className="nav__list">
         <li className="nav__item">
           <Link to="/">Home</Link>
         </li>
