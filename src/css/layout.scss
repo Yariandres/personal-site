@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
-// UTILITIES
-@import "base/utilities";
 
 @import "abstraction/mixins";
 @import "abstraction/variables";
+
+// UTILITIES
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/feature-box.scss";
+
+
 @import "layout/grid";
 
 
 // PAGES
 @import "pages/home";
-@import "base/typography";
+
 
 
 
@@ -85,6 +92,7 @@ body {
 
   &__item a {
     color: $primary-color;
+    font-family: 'Lato', sans-serif;
   }
 
   a:link {
@@ -113,18 +121,18 @@ body {
   &__box--1 {    
     color: $primary-color;    
     position: absolute; 
-    top: 20%;
+    top: 10%;
     left: 50%;
     
     transform: translate(-50%, 50%);
   }  
 
   &__heading-primary--main {
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2.5rem;
+    letter-spacing: 0.5rem;
     padding: 1rem 2rem;
     margin-bottom: 0.5rem;
     display: block;
@@ -132,8 +140,7 @@ body {
 
     @include respond(phone) {
       text-align: center;
-    }
-   
+    }   
 
     // ANIMATION
     animation-name: moveInLeft;
@@ -142,17 +149,22 @@ body {
   }
 
   &__heading-primary--sub {
-    font-size: 6rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2.5rem;
-    display: block;
+    letter-spacing: 0.5rem;
     padding: 1rem 2rem;
-    text-shadow: .5rem 1rem 0.8rem rgba(#000, .2);
+
+    display: block;
+    background-image: linear-gradient(to right, $tertiary-color, $primary-color);
+
+    -webkit-background-clip: text;
+    color: transparent;    
 
     @include respond(phone) {
-      text-align: center;
+      font-size: 3rem;
     }       
 
      // ANIMATION
