@@ -31,7 +31,7 @@ const Stories = () => (
       <figure className="story__shape">
         <img src={Yari} alt="Yari" className="story__img"/>
         <figcaption className="story__caption">
-          Natalia S
+          Yari A
         </figcaption>
       </figure>
       <div className="story__text">
