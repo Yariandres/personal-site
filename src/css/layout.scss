@@ -114,7 +114,7 @@ body {
   background-size: cover;
   background-position: top;
 
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 .hero {
@@ -128,15 +128,14 @@ body {
   }  
 
   &__heading-primary--main {
-    font-size: 3rem;
+    font-size: 3.4rem;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     padding: 1rem 2rem;
     margin-bottom: 0.5rem;
-    display: block;
-    text-shadow: .5rem 1rem 0.8rem rgba(#000, .2);
+    display: block; 
 
     @include respond(phone) {
       text-align: center;
@@ -150,7 +149,7 @@ body {
 
   &__heading-primary--sub {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
     font-family: 'Lato', sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -162,10 +161,6 @@ body {
 
     -webkit-background-clip: text;
     color: transparent;    
-
-    @include respond(phone) {
-      font-size: 3rem;
-    }       
 
      // ANIMATION
      animation-name: moveInRight;
