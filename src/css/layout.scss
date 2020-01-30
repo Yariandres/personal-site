@@ -126,6 +126,12 @@ body {
     left: 50%;
     
     transform: translate(-50%, 50%);
+
+    @include respond(phone) {
+      position: absolute; 
+      top: 0;
+      left: 50%;
+    }
   }  
 
   &__heading-primary--main {
@@ -140,7 +146,7 @@ body {
 
     @include respond(phone) {
       text-align: center;
-      font-size: 2.7rem;
+      font-size: 2.7rem;      
     }   
 
     // ANIMATION
