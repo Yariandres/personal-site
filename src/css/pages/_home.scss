@@ -7,7 +7,7 @@
     display: block;
     font-size: 6rem;
     font-weight: 700;
-    font-family: 'Lato', sans-serif;
+    font-family: $font-secondary;
     line-height: 5rem;
     text-transform: uppercase;
     background-image: linear-gradient(to right, $tertiary-color, $primary-color);
@@ -15,10 +15,13 @@
     -webkit-background-clip: text;
     color: transparent;
 
-
     @include respond(phone) {
-      font-size: 3rem;
+      font-size: 3rem;      
     }
+  }
+
+  @include respond(phone) {
+    padding: 35rem 0 15rem 0;   
   }
 }
 
@@ -27,7 +30,7 @@
   background-image: linear-gradient(
     to right bottom, 
     rgba(191, 191, 191, 0.800),
-    rgba(242, 241, 239, 0.800));
+    rgb(242, 241, 239));
   background-size: cover;
   background-position: top;
   transform: skewY(-7deg);
@@ -36,6 +39,10 @@
   & > * {
     transform: skewY(7deg);
   }
- 
+}
 
+.services {  
+  background-color: $color-grey-light;
+  margin-top: -12vh;
+  padding: 30rem 0 15rem 0;
 }

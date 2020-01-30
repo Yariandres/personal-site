@@ -58,13 +58,11 @@ body {
 // LOGO
 .logo {  
   padding-top: 1rem;
-  margin: 0;
-  
+  margin: 0;  
 
   &__img {
     width: 3rem;
-    height: auto;
-    
+    height: auto;    
   }
 
   @include respond(phone) {
@@ -92,7 +90,7 @@ body {
 
   &__item a {
     color: $primary-color;
-    font-family: 'Lato', sans-serif;
+    font-family: $font-secondary;
   }
 
   a:link {
@@ -100,8 +98,7 @@ body {
   }
 
   a:hover {
-    color: rgb(103, 128, 159);
-    
+    color: rgb(103, 128, 159);    
   }
 }
 
@@ -115,6 +112,10 @@ body {
   background-position: top;
 
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+  @include respond(phone) {
+    height: 80vh;
+  }
 }
 
 .hero {
@@ -139,6 +140,7 @@ body {
 
     @include respond(phone) {
       text-align: center;
+      font-size: 2.7rem;
     }   
 
     // ANIMATION
@@ -148,9 +150,9 @@ body {
   }
 
   &__heading-primary--sub {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
-    font-family: 'Lato', sans-serif;
+    font-family: $font-secondary;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.5rem;

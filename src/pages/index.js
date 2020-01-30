@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import Menu from "../components/menu";
 import Info from "../components/info";
 import Features from "../components/features";
-import Footer from "../components/footer";
+import Services from "../components/services";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -25,10 +25,9 @@ const IndexPage = () => (
         </div>      
       </div>
     </header>
-
     <Info/>
-
     <Features/>
+    <Services/>
   </Layout>
 )
 

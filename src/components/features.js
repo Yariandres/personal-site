@@ -9,7 +9,7 @@ const Features = () => (
           <i className="feature__box--icon icon-basic-floppydisk"></i>
           <h3 className="margin-bottom-small heading-tertiary">Tech</h3>
           <p className="feature__box--text">
-            I am a serial technologists. Born and raised in the tech era just like you
+            I am a serial technologists. Born and raised in the tech era just like you.
           </p>
         </div>
       </div>
