@@ -6,14 +6,14 @@ import Menu from "../components/menu";
 import Info from "../components/info";
 import Features from "../components/features";
 import Services from "../components/services";
+import Stories from "../components/stories";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <header className="header">
-      <Menu/>   
-
+      <Menu/>
       <div className="hero">
         <div className="row">          
           <div className="hero__box--1">
@@ -28,6 +28,7 @@ const IndexPage = () => (
     <Info/>
     <Features/>
     <Services/>
+    <Stories/>
   </Layout>
 )
 
