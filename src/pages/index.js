@@ -7,6 +7,7 @@ import Info from "../components/info";
 import Features from "../components/features";
 import Services from "../components/services";
 import Stories from "../components/stories";
+import Book from "../components/book";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -29,6 +30,7 @@ const IndexPage = () => (
     <Features/>
     <Services/>
     <Stories/>
+    <Book/>
   </Layout>
 )
 

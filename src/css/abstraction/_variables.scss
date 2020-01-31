@@ -3,6 +3,7 @@ $primary-color: #2c3e50;
 $secondary-color: #777;
 $tertiary-color: #333;
 $color-grey-light: #f7f7f7;
+$color-grey-dark: #999;
 
 $color-white: #fff;
 $color-black: #000;
@@ -16,3 +17,9 @@ $gutter-horizontal: 6rem;
 $font-primary: 'Inconsolata', monospace;
 $font-secondary: 'Lato', sans-serif;
 $default-font-size: 1.6rem;
+
+// BORDERS
+$border-primary: 3px;
+
+// FORM
+$box-shadow-form: 0 1.5rem 4rem rgba($color-black, .15);

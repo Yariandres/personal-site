@@ -10,7 +10,7 @@ const Services = () => (
       <h1 className="heading--secondary services__text--left center-text">What I do</h1>
       </div>
       <div className="col-1-of-4">
-        <h3 className="margin-bottom-small heading-tertiary">Brand
+        <h3 className="margin-bottom-small heading-tertiary">Wed-Design Brand
         Building</h3>
         <p className="feature__box--text paragraph">
           Everything that makes you different.
@@ -20,10 +20,10 @@ const Services = () => (
       </div>
 
       <div className="col-1-of-4">
-        <h3 className="margin-bottom-small heading-tertiary">Site
+        <h3 className="margin-bottom-small heading-tertiary">Developement &
         Monetization</h3>
         <p className="feature__box--text paragraph">
-          Everything that makes you grow.
+          Everything that makes you money.
           Premium content creation, campaign management, growth hacking, and demand generation.
           </p>
       </div>
