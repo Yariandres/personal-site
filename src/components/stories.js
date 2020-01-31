@@ -20,7 +20,7 @@ const Stories = () => (
         <div className="story__text">
           <h3 className="margin-bottom-small heading-tertiary">It was a great decision to hire Yari</h3>
           <p className="paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae nulla ad dolore minus vel, distinctio obcaecati dolorum sit error autem similique commodi inventore id.  Consectetur adipisicing eli distinctio obcaecati dolorum sit error autem similique commodi inventore
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae nulla ad dolore minus vel, distinctio obcaecati dolorum sit error autem similique commodi inventore id.  Consectetur adipisicing eli distinctio obcaecati dolorum sit error autem similique commodi inventore
           </p>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Stories = () => (
       <div className="story__text">
         <h3 className="margin-bottom-small heading-tertiary">It was a great decision to hire Yari</h3>
         <p className="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae nulla ad dolore minus vel, distinctio obcaecati dolorum sit error autem similique commodi inventore id.  Consectetur adipisicing eli distinctio obcaecati dolorum sit error autem similique commodi inventore
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae nulla ad dolore minus vel, distinctio obcaecati dolorum sit error autem similique commodi inventore id.  Consectetur adipisicing eli distinctio obcaecati dolorum sit error autem similique commodi inventore
         </p>
       </div>
     </div>
