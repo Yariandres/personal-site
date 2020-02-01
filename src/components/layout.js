@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
+import Menu from "./menu";
 import Footer from "./footer";
 
 import "../css/layout.scss";
@@ -26,7 +27,8 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>   
+    <>
+      <Menu/>  
       <main>{children}</main>
       <Footer/>  
     </>

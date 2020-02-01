@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout";
 
-import Menu from "../components/menu";
 import Info from "../components/info";
 import Features from "../components/features";
 import Services from "../components/services";
@@ -12,9 +11,7 @@ import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <header className="header">
-      <Menu/>
+    <SEO title="Home" />    
       <div className="hero">
         <div className="row">          
           <div className="hero__box--1">
@@ -25,7 +22,6 @@ const IndexPage = () => (
           </div>
         </div>      
       </div>
-    </header>
     <Info/>
     <Features/>
     <Services/>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Wesite Developer and Designer`,
     description: `Personal Website`,
     author: `Yari Andres`,
   },

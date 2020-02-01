@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Logo from "./logo";
+import navStyles from "./menu.module.scss";
 
 const Menu = () => 
   (
@@ -12,19 +13,19 @@ const Menu = () =>
         </div>
 
         <div className="col-1-of-2">
-          <div className="nav"> 
-            <ul className="nav__list">
+          <div className={navStyles.navGroup}> 
+            <ul className={navStyles.navList}>
               <li className="nav__item">
-                <Link to="/">Home</Link>
+                <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/">Home</Link>
               </li>
               <li className="nav__item">
-                <Link to="/about">About</Link>
+                <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/about">About</Link>
               </li>
               <li className="nav__item">
-                <Link to="/services">Portfolio</Link>
+                <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/services">Portfolio</Link>
               </li> 
               <li className="nav__item">
-                <Link to="/blog">Blog</Link>
+                <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/blog">Blog</Link>
               </li>  
             </ul>      
           </div>

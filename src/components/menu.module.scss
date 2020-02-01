@@ -1,0 +1,33 @@
+// NAVIGATION
+.nav-group {
+  margin-top: 1rem;
+
+}
+
+.nav-list {  
+  text-align: right;
+  list-style-type: none;
+  margin: 0;  
+}
+
+
+.active-nav-item {
+  color: pink;
+}
+
+.nav-item {   
+  color: #2c3e50;
+  font-size: 1.9rem;
+
+  text-decoration: none;
+  
+}
+
+.nav-item:hover {
+  color: rgb(103, 128, 159);  
+}
+
+.active-nav-item {
+  color: rgb(103, 128, 159);
+}
+
