@@ -10,14 +10,17 @@
 @import "base/utilities";
 
 // COMPONENTS
+@import "components/button";
 @import "components/feature-box.scss";
 @import "components/story";
 @import "components/form";
 
 @import "layout/grid";
+@import "layout/footer";
 
 // PAGES
 @import "pages/home";
+
 
 
 // RESETS 
@@ -68,40 +71,5 @@ body {
     display: none; 
   }
 }
-
-// .nav {
-//   display: inline;
-
-//   &__list {
-//     text-align: right;    
-//   }
-
-//   &__item {    
-//     font-size: 1.5rem;
-//     font-weight: bold;
-//     list-style: none;
-//     line-height: 7rem;  
-//     padding: 0;
-//     display: inline;
-//     margin-left: 4rem;
-//   }
-
-//   &__item a {
-//     color: #2c3e50;
-//     font-family: 'Lato', sans-serif;
-//   }
-
-//   a:link {
-//     text-decoration: none;
-//   }
-
-//   a:hover {
-//     color: rgb(103, 128, 159);    
-//   }
-
-// }
-
-
- 
-
+  
 // http://www.flatuicolorpicker.com/blue-hex-color-model

@@ -16,11 +16,15 @@ const Book = () => (
               <label for="name" className="form__label">Full name</label>
             </div>
 
-            <div className="form__group">
+            <div className="form__group margin-bottom-meduim">
               <input type="email" className="form__input" id="email" placeholder="Email" required/>
               <label for="email" className="form__label">Email</label>
             </div>
 
+
+            <div className="form__group">
+              <button className="btn">Send &rarr;</button>
+            </div>
           </form>
       </div>
     </div>
