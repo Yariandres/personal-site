@@ -1,6 +1,6 @@
 const path = require('path')
 
-exports.createPages = ({ actions,  graphql}) => {
+exports.createPages = ({ actions,  graphql }) => {
   const { createPage } = actions
 
   const postTemplate = path.resolve('src/templates/blog-post.js')
@@ -12,7 +12,7 @@ exports.createPages = ({ actions,  graphql}) => {
           node {
             html
             id
-            frontmatter{
+            frontmatter {
               path
               title
               date
@@ -30,7 +30,7 @@ exports.createPages = ({ actions,  graphql}) => {
     res.data.allMarkdownRemark.edges.forEach(({node}) => {
       createPage({
         path: node.frontmatter.path,
-        component: postTemplate
+        component: postTemplate,
       })
     })
    })
