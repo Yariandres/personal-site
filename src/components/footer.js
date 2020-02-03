@@ -1,10 +1,21 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 
 import Logo from "./logo";
 
-const Footer = () => 
-  (
+const Footer = () => {
+
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          author
+        }
+      }
+    }
+  `)
+
+  return (
     <footer className="footer">
       <div className="footer__logo--box">
         <Logo/>
@@ -35,13 +46,13 @@ const Footer = () =>
 
         <div className="col-1-of-2">
           <div className="footer__copyright">
-            <p className="paragraph">Porfolio site built by <a href="#" className="footer__link">Yari Andres</a> - software engineer. Copyrights &copy; Yari Andres</p>
+            <p className="paragraph">Porfolio site built by <a href="#" className="footer__link">{data.site.siteMetadata.author}</a> - software engineer. Copyrights &copy; Yari Andres</p>
           </div>
         </div>
-
       </div>
     </footer>
   );
+} 
 
 
 export default Footer;

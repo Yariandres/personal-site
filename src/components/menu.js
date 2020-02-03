@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link , graphql , useStaticQuery} from 'gatsby';
 
 import Logo from "./logo";
 import navStyles from "./menu.module.scss";
 
-const Menu = () => 
-  (
+const Menu = () => {
+ 
+  return (
     <header className="header">
       <div className="row">
         <div className="col-1-of-2">
@@ -30,9 +31,9 @@ const Menu = () =>
             </ul>      
           </div>
         </div>
-
       </div>      
     </header>
   );
+}  
 
 export default Menu;

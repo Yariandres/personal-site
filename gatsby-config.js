@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Javascript: Website Designer Developer`,
-    description: `Portfolio Personal Website`,
+    title: `Javascript: Front-End Website Developer`,
+    description: `Javascript Website Designer front-end Developer React Vue Programming`,
     author: `Yari Andres`,
   },
   plugins: [
