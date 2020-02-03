@@ -12,7 +12,7 @@ const Menu = () => {
         <div className="col-1-of-2">
           <Logo />
         </div>
-
+        
         <div className="col-1-of-2">
           <div className={navStyles.navGroup}> 
             <ul className={navStyles.navList}>

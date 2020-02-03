@@ -10,7 +10,8 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 
   @include respond(phone) {
-    height: 80vh;
+    height: 50vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   }
 }
 
@@ -77,8 +78,9 @@
 //  ABOUT SECTION
 .about {
   background-color: $color-grey-light;
-  padding: 29rem 0 15rem 0;
+  padding: 30rem 0 15rem 0;
   margin-top: -30vh;
+  
   
   &__heading--show {
     display: block;
@@ -98,7 +100,7 @@
   }
 
   @include respond(phone) {
-    padding: 35rem 0 15rem 0;   
+    padding: 50rem 0 10rem 0;   
   }
 }
 
@@ -160,7 +162,7 @@
   height: 50rem;
 
   &__form {
-    width: 50%;
+    width: 70%;
     padding: 6rem;
   }
 }

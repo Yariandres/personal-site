@@ -46,13 +46,12 @@ const Footer = () => {
 
         <div className="col-1-of-2">
           <div className="footer__copyright">
-            <p className="paragraph">Porfolio site built by <a href="#" className="footer__link">{data.site.siteMetadata.author}</a> - software engineer. Copyrights &copy; Yari Andres</p>
+            <p className="paragraph">Porfolio site built by <a href="https://www.linkedin.com/in/yari-herrera-9677a9160/" target="_blank" className="footer__link">{data.site.siteMetadata.author}</a> - software engineer. Copyrights &copy; Yari Andres</p>
           </div>
         </div>
       </div>
     </footer>
   );
-} 
-
+}
 
 export default Footer;
