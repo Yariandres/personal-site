@@ -14,7 +14,6 @@ const Info = () => (
     </h2>
   </div>
 </section>
-
 );
 
 export default Info;

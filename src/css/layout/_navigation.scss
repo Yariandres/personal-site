@@ -1,0 +1,31 @@
+.navigation {
+  position: fixed;
+  z-index: 1500;
+  top: 3rem;
+  left: 4rem;
+
+
+
+  // list
+  ul {
+
+  }
+
+  // Items
+
+  li {
+    margin-bottom: 1.5rem;
+
+
+    a {
+
+      &:link,
+      &:visited {
+        text-transform: uppercase;
+      background-image: linear-gradient(120deg, $color-grey-dark 0%, $color-grey-dark 50%, $color-white 50%);
+      background-size: 100%;
+      }      
+    }
+  }
+}
+

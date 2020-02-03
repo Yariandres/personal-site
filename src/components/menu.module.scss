@@ -2,23 +2,17 @@
 .nav-group {
   margin-top: 1rem;
 }
-
 .nav-list {
-  display: flex;  
-  text-align: right;
-  list-style-type: none; 
+  list-style-type: none;  
 }
-
 .nav-item {   
   color: #2c3e50;
   font-size: 1.9rem;
-  text-decoration: none; 
+  text-decoration: none;
 }
-
 .nav-item:hover {
   color: rgb(103, 128, 159);  
 }
-
 .active-nav-item {
   color: rgb(103, 128, 159);
 }

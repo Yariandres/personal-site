@@ -1,21 +1,22 @@
 // HERO
-.header {
+
+.hero {
   height: 95vh;
+  padding: 1rem 0 0 1rem;
   background-image: linear-gradient(
     to right, rgba(191, 191, 191, 0.800),
-    rgba(242, 241, 239, 0.800)), url(../images/designer.jpg);
+    rgba(242, 241, 239, 0.800));
   background-size: cover;
   background-position: top;
-
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 
   @include respond(phone) {
+    padding: 1rem 0 0 1rem;
     height: 50vh;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   }
-}
 
-.hero {
+
   &__box--1 {    
     color: $primary-color;    
     position: absolute; 
@@ -55,7 +56,7 @@
   &__heading-primary--sub {
     font-size: 4rem;
     font-weight: 700;
-    font-family: $font-secondary;
+    font-family: $font-primary;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -74,19 +75,18 @@
   }
 }
 
-
 //  ABOUT SECTION
 .about {
   background-color: $color-grey-light;
   padding: 30rem 0 15rem 0;
   margin-top: -30vh;
-  
+
   
   &__heading--show {
     display: block;
     font-size: 6rem;
     font-weight: 700;
-    font-family: $font-secondary;
+    font-family: $font-primary;
     line-height: 5rem;
     text-transform: uppercase;
     background-image: linear-gradient(to right, $tertiary-color, $primary-color);

@@ -11,7 +11,7 @@ import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />    
+    <SEO title="Home" />        
       <div className="hero">
         <div className="row">          
           <div className="hero__box--1">
