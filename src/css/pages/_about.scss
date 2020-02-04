@@ -1,28 +1,8 @@
-//  ABOUT SECTION
-.about {
-  background-color: $color-grey-light;
-  padding: 30rem 0 15rem 0;
-  margin-top: -30vh;
-
-  
-  &__heading--show {
-    display: block;
-    font-size: 6rem;
-    font-weight: 700;
-    font-family: $font-primary;
-    line-height: 5rem;
-    text-transform: uppercase;
-    background-image: linear-gradient(to right, $tertiary-color, $primary-color);
-
-    background-clip: text;
-    color: transparent;
-
-    @include respond(phone) {
-      font-size: 3rem;      
-    }
-  }
-
-  @include respond(phone) {
-    padding: 50rem 0 10rem 0;   
-  }
+// STORIES SECTION
+.about-page {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right bottom, 
+    rgb(191, 191, 191),
+    rgb(242, 241, 239));
 }

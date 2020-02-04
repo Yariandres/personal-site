@@ -17,7 +17,7 @@ const Nav = () => {
             <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/about">About</Link>
           </li>
           <li className="nav__item">
-            <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/services">Portfolio</Link>
+            <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/portfolio">Portfolio</Link>
           </li> 
           <li className="nav__item">
             <Link className={navStyles.navItem} activeClassName={navStyles.activeNavItem} to="/blog">Blog</Link>

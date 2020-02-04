@@ -4,11 +4,13 @@ import Book from "../components/book"
 import Yari from '../images/new.png';
 
 import Layout from "../components/layout"
+import SEO from "../components/seo";
 
 const about = () => 
  (
   <Layout>
-    <section className="stories">
+  <SEO title="About" />  
+    <section className="about-page">
       <div className="center-text margin-bottom-big">
         <h2 className="heading--secondary">Hi...</h2>
       </div>

@@ -1,7 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 export const pageQuery = graphql`
   query BlogIndexQuery {
@@ -20,8 +21,9 @@ export const pageQuery = graphql`
     }    
   }
 `
-const BlogPage = ({data}) => (
+const BlogPage = ( { data } ) => (
   <Layout>
+  <SEO title="Blog" />  
     <h1>Latest Posts</h1>
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>
