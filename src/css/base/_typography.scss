@@ -5,7 +5,7 @@
   
   background-image: linear-gradient(to right, $secondary-color, $tertiary-color);
 
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 
   &:hover {

@@ -16,7 +16,7 @@ const IndexPage = () => (
         <div className="row">          
           <div className="hero__box--1">
               <h1>
-              <span className="hero__heading-primary--main">Hi, I am Yari - Web designer & Developer</span>
+              <span className="hero__heading-primary--main">Your Personal Web-Dev Assistant</span>
                 <span className="hero__heading-primary--sub">For  Monetization and Growth of your Online Passion.</span>   
               </h1>
           </div>

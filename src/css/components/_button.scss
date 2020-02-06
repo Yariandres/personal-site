@@ -36,3 +36,45 @@
     box-shadow: 0 .5rem 1rem rgba($color-black, .2);;
   }
 }
+
+.btn-dark {
+  background-color: $color-grey-dark;
+  color: $color-grey-light;
+
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem 4rem;
+    display: inline-block;
+    width: max-content;
+    border-radius: 10rem;
+    transition: all .2s;
+  
+
+    font-size: $default-font-size;
+
+    // change for the <button>
+
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 1 1rem 2rem rgba($color-black, .2);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);;
+  }
+}

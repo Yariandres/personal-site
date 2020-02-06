@@ -5,4 +5,8 @@ title: "Second blog post"
 Author: "Yari Herrera"
 ---
 
-This is my very first post on my Gatsby site
+This is my very first post on my Gatsby site Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quos necessitatibus rem enim iusto maxime, dolore expedita ex consequatur ullam, praesentium deleniti illum accusantium, provident fugit libero? Iure, suscipit animi.
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quos.
+
+necessitatibus rem enim iusto maxime, dolore expedita ex consequatur ullam, praesentium deleniti illum accusantium, provident fugit libero? Iure, suscipit animi.

@@ -1,0 +1,28 @@
+.blog-page{
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right bottom, 
+    rgb(191, 191, 191),
+    rgb(242, 241, 239)); 
+
+    &__btn {
+      text-align: right;
+    }
+
+    &__heading {
+      text-align: center;
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      
+      background-image: linear-gradient(to right, $secondary-color, $tertiary-color);
+
+      background-clip: text;
+      color: transparent;
+
+      &:hover {
+        text-shadow: .5rem 1rem 2rem rgba(#000, .2);
+      } 
+    }
+}
+
