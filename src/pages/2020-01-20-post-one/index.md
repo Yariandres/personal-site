@@ -4,17 +4,36 @@ date: "2020-01-20"
 title: "First blog post"
 author: "Yari Herrera"
 ---
-
+<p class="center-text margin-bottom-small margin-top-small">
 This is my very first post on my Gatsby site
+</p>
 
-![Image](./9.jpeg)
+<h3 class="center-text margin-bottom-small margin-top-small">
+  Cool Topics
+</h3>
 
-## Cool Topics
-
+<center class="margin-bottom-small">
 1. html
 2. CSS
 3. SCSS
 4. Javascript
 5. Website Design
+</center>
+<br>
+<br>
 
+<p class="paragraph">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veniam nobis, odit maxime earum praesentium voluptates iusto dicta similique repellat asperiores iure aspernatur repudiandae debitis reiciendis iste consectetur vel quisquam.
+</p>
+
+
+![Image](./9.jpeg)
+<br>
+<br>
+
+<p class="paragraph">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veniam nobis, odit maxime earum praesentium voluptates iusto dicta similique repellat asperiores iure aspernatur repudiandae debitis reiciendis iste consectetur vel quisquam.
+</p>
+
+<br>
+***
