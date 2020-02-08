@@ -8,10 +8,6 @@ author: "Yari Herrera"
 This is my very first post on my Gatsby site
 </p>
 
-<h3 class="center-text margin-bottom-small margin-top-small">
-  Cool Topics
-</h3>
-
 <center class="margin-bottom-small">
 1. html
 2. CSS
