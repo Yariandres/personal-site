@@ -5,7 +5,6 @@ title: "BITCOIN GOOGLE SEARCHES SURGE AS CRYPTO BULLS GATHER MOMENTUM"
 author: "Yari Herrera"
 ---
 
-<div class="feature__box--post">
   <h3 class=" margin-bottom-small margin-top-small">
     There are several metrics that can be used to measure market sentiment and general interest. Google searches are one and they are up for bitcoin by a big margin.
   </h3>
@@ -64,4 +63,4 @@ author: "Yari Herrera"
      You can clearly see in the graph that there are slight dips. However, for the most part, the search volume for this niche is pretty stable. Over the span of several years you’ll see some slight dips or increases, which is normal. But for the most part, Google Trends shows that men’s fashion is a pretty stable niche. You might be wondering what the dips and increases mean. Those show you the seasonal trends of the searches. October through December sees an increase in searches with a decline starting in January. That doesn’t mean you don’t want to start a men’s fashion store in January, it just means you might see a lower amount of website traffic at that time of year.
   </p>
   
-</div>
+
