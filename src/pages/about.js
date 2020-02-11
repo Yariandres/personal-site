@@ -26,7 +26,7 @@ const about = () =>
         <div className="story__text">
           <h3 className="margin-bottom-small heading-tertiary">Yari Andres - Software Engineer</h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae nulla ad dolore minus vel, distinctio obcaecati dolorum sit error autem similique commodi inventore id.  Consectetur adipisicing eli distinctio obcaecati dolorum sit error autem similique commodi inventore
+          My objective is to empower businesses with their online strategies through powerful, custom websites or software solutions. I aim to strive for 100% satisfaction because we see all my business relationships as long-term win-win partnerships.
           </p>
         </div>
       </div>

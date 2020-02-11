@@ -13,8 +13,6 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 
   @include respond(phone) {
-    padding: 1rem 0 0 1rem;
-    height: 50vh;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   }
 
@@ -22,14 +20,13 @@
   &__box--1 {    
     color: $primary-color;    
     position: absolute; 
-    top: 10%;
-    left: 50%;
-    
+    top: 0;
+    left: 50%;    
     transform: translate(-50%, 50%);
 
     @include respond(phone) {
       position: absolute; 
-      top: 0;
+      top: 10%;
       left: 50%;
     }
   }  
@@ -80,7 +77,7 @@
 //  ABOUT SECTION
 .about {
   background-color: $color-grey-light;
-  padding: 30rem 0 15rem 0;
+  padding: 30em 0 15rem 0;
   margin-top: -30vh;
 
   
@@ -94,15 +91,11 @@
     background-image: linear-gradient(to right, $tertiary-color, $primary-color);
 
     background-clip: text;
-    color: transparent;
-
-    @include respond(phone) {
-      font-size: 3rem;      
-    }
+    color: transparent;    
   }
 
   @include respond(phone) {
-    padding: 50rem 0 10rem 0;   
+    padding: 30rem 0 10rem 0;   
   }
 }
 

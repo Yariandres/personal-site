@@ -7,9 +7,9 @@ const Features = () => (
       <div className="col-1-of-2">
         <div className="feature__box">       
           <i className="feature__box--icon icon-basic-floppydisk"></i>
-          <h3 className="margin-bottom-small heading-tertiary">Tech</h3>
+          <h3 className="margin-bottom-small heading-tertiary">Technology</h3>
           <p className="feature__box--text">
-            I am a serial technologists. Born and raised in the tech era just like you.
+            Help businesses Grow Faster with the right strategy and technology.
           </p>
         </div>
       </div>
