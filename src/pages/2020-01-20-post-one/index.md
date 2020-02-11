@@ -1,17 +1,13 @@
 ---
 path: "/post-one"
 date: "2020-01-20"
-title: "How to Use Google Trends: 10 Features for Entrepreneurs"
+title: "How to Use Google Trends: 10 Mind-Blowing Tricks for Entrepreneurs"
 author: "Yari Herrera"
 ---
-![Image](./9.jpeg)
+![Image](1.jpg)
+<br>
 
-  <h3 class=" margin-bottom-small margin-top-small">
-    How to Use Google Trends: 10 Mind-Blowing Tricks for Entrepreneurs
-  </h3>
-
-
-  <p class="paragraph">
+  <p class="paragraph margin-top-meduim">
   Google Trends isn’t your average SEO tool. For those of us in ecommerce and dropshipping, it’s pretty handy at letting you know the seasonal trends of certain products – or your niche. You can even use it to edge out competitors by monitoring their positions. In this article, we’ll share how to monitor everything from YouTube stats to the Google Trends compare feature. But most importantly, we’ll share how to use Google Trends to maximize your business. So, let’s get down to it.
   </p>
     
@@ -24,7 +20,6 @@ author: "Yari Herrera"
     Google Trends is trends search feature that shows the popularity of a search term in Google. You can view whether a trend is on the rise or declining. You can also find demographic insights, related topics, and related queries to help you better understand the Google trends.
   </p>
 
-  <!-- ************************************ -->
 
   <h2 class="c margin-bottom-small margin-top-small">How to Use Google Trends: 10 Features for Entrepreneurs</h2>
 

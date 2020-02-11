@@ -4,6 +4,8 @@ date: "2020-01-21"
 title: "BITCOIN GOOGLE SEARCHES SURGE AS CRYPTO BULLS GATHER MOMENTUM"
 author: "Yari Herrera"
 ---
+![Image](2.jpg)
+<br>
 
   <h3 class=" margin-bottom-small margin-top-small">
     There are several metrics that can be used to measure market sentiment and general interest. Google searches are one and they are up for bitcoin by a big margin.
