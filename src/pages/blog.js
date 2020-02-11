@@ -43,7 +43,7 @@ const BlogPage = ( { data } ) => (
             </div>
             <hr className="margin-bottom-meduim"/>
             <div className="blog-page__btn">
-                <Link className="btn-dark" to={post.node.frontmatter.path}> Read more</Link>
+                <Link className="btn-dark" to={post.node.frontmatter.path}> Read Post</Link>
             </div>
           </div>
         </div>

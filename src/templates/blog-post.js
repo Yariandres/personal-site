@@ -27,8 +27,10 @@ export default function Template( { data } ) {
         <div className="row">      
           <h2 className="heading--secondary center-text margin-bottom-small">{post.frontmatter.title}</h2>
 
-          <h4 className="heading-tertiary center-text ">Posted by: {post.frontmatter.author} on {post.frontmatter.date}</h4>
-          <div className="paragraph margin-bottom-small" dangerouslySetInnerHTML={{ __html: post.html }}></div>
+          <h4 className="heading-tertiary center-text margin-bottom-large">Posted by: {post.frontmatter.author} on {post.frontmatter.date}</h4>
+          <br/>
+          <br/>
+          <div className="paragraph margin-bottom-big" dangerouslySetInnerHTML={{ __html: post.html }}></div>
 
           <Link className="btn-dark" to="/blog">Go Back</Link>
         </div>
