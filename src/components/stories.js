@@ -20,7 +20,7 @@ const Stories = () => (
         <div className="story__text">
           <h3 className="margin-bottom-small heading-tertiary">It was a great decision to hire Yari</h3>
           <p className="paragraph">
-            We are an NGO based in Poland for baby wearing mums. We reached out to Yari for custom a blog. We needed a wesite to displayed our content and a back-end system to log-in and manage everything which Yari did an expended Job! Yari went beyond our expectation to help and took the time to really understand the exact solution we were looking for. We highly recommend him.  
+          We are an NGO based in Poland for baby wearing mums. We reached out to Yari for custom a blog. We needed a website to display our content and a back-end system to log-in and manage everything and Yari did an excellent Job! Yari went beyond our expectation to help and took the time to really understand the exact solution we were looking for. We highly recommend him.  
           </p>
         </div>
       </div>
