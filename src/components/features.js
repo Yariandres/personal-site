@@ -9,7 +9,7 @@ const Features = () => (
           <i className="feature__box--icon icon-basic-floppydisk"></i>
           <h3 className="margin-bottom-small heading-tertiary">Technology</h3>
           <p className="feature__box--text">
-            Help businesses Grow Faster with the right strategy and technology.
+            I help businesses grow faster with the right strategy and development technology.
           </p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const Features = () => (
           <i className="feature__box--icon icon-basic-pencil-ruler"></i>
           <h3 className="margin-bottom-small heading-tertiary">Creative</h3>
           <p className="feature__box--text">
-            Inspired by trend-setting artists. Each a master of their craft - fluent and amazing.
+            I show companies how to increase their revenue with critical insights that makes their brand stand out.
           </p>
         </div>
       </div>
