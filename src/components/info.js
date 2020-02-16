@@ -14,4 +14,3 @@ const Info = () => (
 </section>
 );
 export default Info;
-
