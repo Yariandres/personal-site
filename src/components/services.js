@@ -9,13 +9,13 @@ const Services = () => (
       
       <h3 className="margin-bottom-small heading-tertiary">What I do</h3>
         <p className="feature__box--text paragraph">
-        There is an 80% chance that your business will fail according to Pareto's principal. I deliver laser focus outstanding development solutions focused on time saving and cost cutting strategies to everyday business processes.
+        There is an 80% chance that your business will fail according to Pareto's principal. I deliver laser sharp outstanding development solutions focused on time saving and cost cutting strategies to solve everyday business processes.
         </p>
       </div>
       <div className="col-1-of-3">
         <h3 className="margin-bottom-small heading-tertiary">How I do this</h3>
         <p className="feature__box--text paragraph">
-        I create an end-result that will help you outshine your competitors. It is aimed to solve business goals and objectives in the shortest time possible. Weather it is a SaaS product or ecommerce site or local business solution the end-result will not leave money on the table. 
+        I create an end-result that will help you outshine your competitors. It is aimed to solve business goals and objectives in the shortest time possible. Wether it is a new website or custom development solution the end-result will powerful and will not leave money on the table. 
         </p>
       </div>
 
