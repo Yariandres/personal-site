@@ -26,7 +26,6 @@ author: "Yari Herrera"
    <p class="paragraph">
     <strong>Google’s</strong> main line of business is the search algorithm, so it’s normal that it’s always changing. But one thing that has not changed is what the algorithm is trying to do. Google’s job is to provide the best result for any given query. It finds pages and ranks them to the best match for the user’s intents.
   </p>
-
   
 
    <h3 class=" margin-bottom-small margin-top-small">
@@ -62,22 +61,25 @@ author: "Yari Herrera"
   <h3 class=" margin-bottom-small margin-top-small">
     Content type
   </h3>
-  <p class="paragraph">o-	Blog posts</p>
-  <p class="paragraph">o-	Product pages </p>
-  <p class="paragraph">o-	Category pages</p>
-  <p class="paragraph">o-	Landing pages</p>
+
+  <p class="paragraph">Blog posts</p>
+  <p class="paragraph">Product pages </p>
+  <p class="paragraph">Category pages</p>
+  <p class="paragraph">Landing pages</p>
 
   <h3 class=" margin-bottom-small margin-top-small">
      Content format
   </h3>
 
-  <p class="paragraph">o-	Blog posts</p>
+  <p class="paragraph">Blog posts</p>
+
   <li>"How to-s”</li>
   <li>Step by step tutorials</li>
   <li>List posts</li>
   <li>Opinion editorials</li>
 
   <p class="paragraph">o-	Landing pages</p>
+
   <li>Free tools</li>
   <li>Calculators</li>
   <li>List posts</li>
@@ -86,6 +88,7 @@ author: "Yari Herrera"
   <h3 class=" margin-bottom-small margin-top-small">
      Content Angle
   </h3>
+
   <p class="paragraph">
      The hook! Why should people click onto your pages? Here is where you provide value to your audience, you connect with them.
   </p>
@@ -93,9 +96,11 @@ author: "Yari Herrera"
   <p class="paragraph">
   <strong> -	Cover the topic fully!</strong> 
   </p>
+
   <p class="paragraph">
      This does not mean that you have to discuss the last-minute detail of the topic. For example, if you are covering a topic about a face cream or a mobile phone. Just look at what the top pages are talking about and design your content accordingly.
   </p>
+
   <p class="paragraph">
      Use a URL tool to check what keyword they are ranking for to see common terms rankings among the top 3 – 5 pages.
   </p>
@@ -109,6 +114,7 @@ author: "Yari Herrera"
   <li>URL slugs</li>
   <li>List posts</li>
   <li>Heading tags </li>
+
   <p class="paragraph">They are basic but important.</p>
 
   <p class="paragraph">
@@ -128,23 +134,26 @@ author: "Yari Herrera"
      Continue focusing on building backlinks. Links have been and still are one of the strongest ranking signals. If you are in a competitive market, then you need to build them.
   </p>
 
-   <p class="paragraph">Things like: </p>
+  <p class="paragraph">Things like: </p>
+
   <li>broken link building</li>
   <li>The skyscraper technique </li>
   <li>Guest posting</li>
 
   <p class="paragraph">They all work very well so keep them up.</p>
+
   <p class="paragraph">What does not work is copy other people’s work word by word and paste and sending the exact same email message everybody else is sending. This puts you in a box and does not yield the best results.</p>
+
   <p class="paragraph">Instead, try to put yourself in the shoes of the other person and give value to increase your chances of getting links.</p>
 
   <h3 class=" margin-bottom-small margin-top-small">
     3-	Indexation
   </h3>
+
   <p class="paragraph">Search engines are bot who crawl, parse and store the data in a database called search index. Then users are able to access the data via google search.</p>
   <p class="paragraph">So, if your pages are not indexed it is impossible to get your site in front of users eyes you could have exactly what they are looking for but they won’t know that you even exist if your page is not indexed.</p>
   <p class="paragraph">If you don’t have google search set up. Go to google.com and search for site:your-domain.com and you will see what google is indexing you for. If you don’t see anything there then that means you are not being indexed. If this is your case:</p>
-  <p class="paragraph">Here are a few things you can do:</p>
-  
+  <p class="paragraph">Here are a few things you can do:</p>  
 
   <li>Make sure you have unintentionally no-indexed all your pages. Normally this happens when developers are migrating the site or there is a redesign. </li>
   <li>Go to you page source code and search for “noindex” if you find this bit of code then get your developers to remove it.</li>
@@ -153,8 +162,9 @@ author: "Yari Herrera"
   <p class="paragraph">Go to <strong>your-domain.com/robots.txt</strong> and if you see something like:</p>
 
   <p class="paragraph">User-agent : * <br>Disallow: /</p>
+
   <p class="paragraph">That mean you are blocking crawlers from navigating your site’s pages</p>
   <p class="paragraph">There a tone of things you can do to fix page indexation but this are the basics and foundation you should know about.</p>
   <p class="paragraph">In conclusion, you don’t need to be an SEO master to rank your site, you just need to master these 3 fundamental things and most important of all. You need to get out there and start to competing with other. Focus on the things that matter the most rather chasing hacks from headlines claiming that SEO has changed.</p>
-  <p class="paragraph">I would love to hear what your thoughts, so if you have a question or need any help. Do let me know.</p>
+  <p class="paragraph">I would love to hear what your thoughts, so get intouch!</p>
   <p class="paragraph">Thanks, Yari</p>
