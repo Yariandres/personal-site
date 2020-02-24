@@ -16,7 +16,7 @@ author: "Yari Herrera"
   </h3>
 
   <p class="paragraph">
-    Probably not and I bet that 99% of people reading this article don’t either. Its not because that updates were not important, it’s because they update did not affect their ground or foundation for building SEO success. So instead of searching for the latest way to show your EAT (Expertise, Authority, and Trust) or trying to optimize for BERT (Bidirectional Encoder Representations from Transformers) you put 100% of your focus on the 3 most fundamentals that will determine the fate of your rankings.
+    Probably not and I bet that 99% of people reading this article don’t either. It's not because these updates were not important, it’s because the updates did not affect the ground foundation for building SEO success. So instead of searching for the latest way to show your EAT (Expertise, Authority, and Trust) or trying to optimize for BERT (Bidirectional Encoder Representations from Transformers) you put 100% of your focus on the 3 most fundamentals that will determine the fate of your rankings.
   </p>  
 
    <h3 class=" margin-bottom-small margin-top-small">
@@ -77,8 +77,8 @@ author: "Yari Herrera"
   <li>Step by step tutorials</li>
   <li>List posts</li>
   <li>Opinion editorials</li>
-
-  <p class="paragraph">o-	Landing pages</p>
+   <br>
+  <p class="paragraph">Landing pages</p>
 
   <li>Free tools</li>
   <li>Calculators</li>
@@ -94,7 +94,7 @@ author: "Yari Herrera"
   </p>
 
   <p class="paragraph">
-  <strong> -	Cover the topic fully!</strong> 
+  <strong> - Cover the topic fully!</strong> 
   </p>
 
   <p class="paragraph">
@@ -114,7 +114,7 @@ author: "Yari Herrera"
   <li>URL slugs</li>
   <li>List posts</li>
   <li>Heading tags </li>
-
+   <br>
   <p class="paragraph">They are basic but important.</p>
 
   <p class="paragraph">
@@ -139,7 +139,7 @@ author: "Yari Herrera"
   <li>broken link building</li>
   <li>The skyscraper technique </li>
   <li>Guest posting</li>
-
+   <br>
   <p class="paragraph">They all work very well so keep them up.</p>
 
   <p class="paragraph">What does not work is copy other people’s work word by word and paste and sending the exact same email message everybody else is sending. This puts you in a box and does not yield the best results.</p>
