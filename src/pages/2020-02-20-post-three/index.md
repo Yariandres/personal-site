@@ -55,7 +55,7 @@ author: "Yari Herrera"
   </h3>
 
   <p class="paragraph">
-     The reason behind the query. Search intent today is more important is more important today than ever you will want to match the type, angle of your top competitors pages – Introducing the three C’s!
+     The reason behind the query. Search intent today is more important today than ever, you will want to match the type, angle of your top competitors pages – Introducing the three C’s!
   </p>
 
   <h3 class=" margin-bottom-small margin-top-small">
@@ -164,7 +164,7 @@ author: "Yari Herrera"
   <p class="paragraph">User-agent : * <br>Disallow: /</p>
 
   <p class="paragraph">That mean you are blocking crawlers from navigating your site’s pages</p>
-  <p class="paragraph">There a tone of things you can do to fix page indexation but this are the basics and foundation you should know about.</p>
+  <p class="paragraph">There's a tone of things you can do to fix page indexation but this are the basics and foundation you should know about.</p>
   <p class="paragraph">In conclusion, you don’t need to be an SEO master to rank your site, you just need to master these 3 fundamental things and most important of all. You need to get out there and start to competing with other. Focus on the things that matter the most rather chasing hacks from headlines claiming that SEO has changed.</p>
   <p class="paragraph">I would love to hear what your thoughts, so get intouch!</p>
   <p class="paragraph">Thanks, Yari</p>
