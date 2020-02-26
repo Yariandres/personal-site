@@ -20,7 +20,7 @@ const Stories = () => (
         <div className="story__text">
           <h3 className="margin-bottom-small heading-tertiary">Custom CMS Blog System</h3>
           <p className="paragraph">
-          We are an NGO based in Poland for baby wearing mums. We reached out to Yari for custom CSM blog. We needed a website to display our content and a back-end system to log-in and manage everything - Yari did an excellent Job! He went beyond our expectation to help and took the time to really understand the exact solution we were looking for. We highly recommend him.  
+          We are an NGO based in Poland for babywearing parents. We reached out to Yari for custom CMS blog. We needed a website to display our content and a back-end system to log-in and manage everything - Yari did an excellent Job! He went beyond our expectation to help and took the time to really understand the exact solution we were looking for. We highly recommend him.  
           </p>
         </div>
       </div>
